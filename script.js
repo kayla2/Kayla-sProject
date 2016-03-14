@@ -10,8 +10,9 @@ var gameCheck = function(){
 		reset();
 	}
 }
-// while (name == "") {
-// name=prompt("Your name, sil vous plait");
+while (name == "") {
+ /
+/ name=prompt("Your name, sil vous plait");
 //}
 $('.jumbotron  h2 span').html(name);
 
