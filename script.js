@@ -11,9 +11,8 @@ var gameCheck = function(){
 	}
 }
 while (name == "") {
- /
-/ name=prompt("Your name, sil vous plait");
-//}
+ name=prompt("Your name, sil vous plait");
+}
 $('.jumbotron  h2 span').html(name);
 
 if ($('.true input[value="Truth"]').click(function(){
